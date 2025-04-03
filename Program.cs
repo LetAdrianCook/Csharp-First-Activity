@@ -33,7 +33,7 @@ namespace Csharp_First_Activity
                     Console.WriteLine();
                     for (int i = 0; i < subjectCount; i++)
                     {
-                        Console.Write("Please Enter your grade for " + subjectList[i] + ": ");
+                        Console.Write("Please Enter your grade for " + subjectList[i] + " Subject: ");
                         float subjectGrade = Convert.ToSingle(Console.ReadLine());
                         gradeList.Add(subjectGrade);
                     }
